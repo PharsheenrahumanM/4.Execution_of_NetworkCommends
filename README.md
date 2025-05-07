@@ -53,13 +53,7 @@ ip=input("Enter the website you want to ping ")
 s.send(ip.encode())
 print(s.recv(1024).decode())
 ~~~
-## Traceroute command
-~~~
-from scapy.all import*
-target = ["www.google.com"]
-result, unans = traceroute(target,maxttl=32)
-print(result,unans)
-~~~
+
 ## Output
 
 ![cnexp4prgrm](https://github.com/user-attachments/assets/741b7449-2445-4bd8-9ac8-b7dabf57b3a5)
@@ -67,7 +61,6 @@ print(result,unans)
 
 ![cnexp4,2](https://github.com/user-attachments/assets/92b7b9e3-ce94-4c9d-8894-5f2c984b9bbc)
 
-![Screenshot 2025-04-30 105807](https://github.com/user-attachments/assets/ad11a881-9c91-4af3-8424-6b1026bfdffa)
 
 ## Result
 Thus Execution of Network commands Performed 
